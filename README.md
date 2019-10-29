@@ -2,7 +2,7 @@
 Fetch data from USGS and plot areas across the world that had a 4.5+ earthquake in the last 24 hours.
 
 <div align="center">
-  <img src="output_usgs_4.5quakes.png" width=500 />
+  <img src="output_usgs_4.5quakes.png" width=700 />
 </div>
 
 ## Data Source
