@@ -16,7 +16,8 @@ earth = Basemap(ax=ax)
 earth.bluemarble(alpha=0.8) # for blue color of water
 
 ax.scatter(df['longitude'], df['latitude'], df['mag'] ** 2, c='red', alpha=0.5, zorder=10)
-ax.set_title("Earthquakes of magnitude 4.5+ in the last 24 hours") 
+ax.set_title("Earthquakes of magnitude 4.5+ in the last 24 hours ("+now.strftime("%Y-%m-%d_%H-%M")+")")
 
-fig.savefig('output_usgs_4.5quakes_'+now.strftime("%Y-%m-%d_%H-%M")+'.png', dpi=350)
-plt.show()
+fig.savefig('output_usgs_4.5quakes.png', dpi=350)
+#plt.show()
+exit()
